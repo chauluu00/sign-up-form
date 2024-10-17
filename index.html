@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="col-1">
+            <div class="logo">
+                <img src="./assets/odin-lined.png">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="row-1">
+                <p>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up <span class="italic">now</span> to get started.</p>
+                <p>You <span class="italic">know</span> you want to.</p>
+            </div>
+            <div class="row-2">
+                <p>Let's do this!</p>
+                <form>
+                    <div class="left">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="right">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id="phone_number">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password">
+                    </div>
+                </form>
+            </div>
+            <div class="row-3">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
